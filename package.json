@@ -1,6 +1,6 @@
 {
   "name": "@teslontechnologies/cordova-plugin-social-sharing",
-  "version": "1.0.1",
+  "version": "6.0.5",
   "description": "This plugin allows you to share text, images (and other files), or links using your device’s native sharing widget. It fully supports Android and iOS 6 and above, with limited support for Windows Phone 8.",
   "cordova": {
     "id": "cordova-plugin-social-sharing",
