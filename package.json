@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-x-socialsharing",
-  "version": "6.0.4",
-  "description": "Share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.",
+  "name": "@teslontechnologies/cordova-plugin-social-sharing",
+  "version": "1.0.1",
+  "description": "This plugin allows you to share text, images (and other files), or links using your device’s native sharing widget. It fully supports Android and iOS 6 and above, with limited support for Windows Phone 8.",
   "cordova": {
-    "id": "cordova-plugin-x-socialsharing",
+    "id": "cordova-plugin-social-sharing",
     "platforms": [
       "ios",
       "android",
@@ -12,10 +12,7 @@
       "web"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
-  },
+  "repository": "https://github.com/teslontechnologies/SocialSharing-PhoneGap-Plugin",
   "keywords": [
     "Social",
     "Share",
@@ -40,11 +37,9 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Eddy Verbruggen - @EddyVerbruggen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin#readme",
+  "author": "Dileep R",
   "types": "./types/index.d.ts"
 }
